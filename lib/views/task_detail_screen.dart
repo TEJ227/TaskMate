@@ -13,8 +13,6 @@ class TaskDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final themeViewModel = Provider.of<ThemeViewModel>(context);
     final taskViewModel = Provider.of<TaskViewModel>(context);
-
-    taskViewModel.doNotify = true;
     return Scaffold(
       backgroundColor: themeViewModel.isDarkMode ? Colors.black : Colors.white,
       appBar: AppBar(

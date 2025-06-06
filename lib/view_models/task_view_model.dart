@@ -11,12 +11,6 @@ class TaskViewModel extends ChangeNotifier {
   List<Task> _tasks = [];
   FilterOption _filter = FilterOption.all;
   bool _isLoading = false;
-  bool _doNotify = false;
-  bool get doNotify => _doNotify;
-  set doNotify(bool value) {
-    _doNotify = value;
-
-  }
 
   List<Task> get tasks {
     switch (_filter) {
@@ -52,10 +46,7 @@ class TaskViewModel extends ChangeNotifier {
 
   Future<void> loadTasks() async {
     _tasks = _repository.getTasksFromLocal();
-
-    if (_doNotify) {
-      notifyListeners();
-    }
+     notifyListeners();
   }
 
   Future<void> addTask(Task task) async {

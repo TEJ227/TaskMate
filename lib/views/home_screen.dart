@@ -14,8 +14,6 @@ class HomeScreen extends StatelessWidget {
     final taskViewModel = Provider.of<TaskViewModel>(context);
     final themeViewModel = Provider.of<ThemeViewModel>(context);
 
-    taskViewModel.doNotify = true;
-
     return Scaffold(
       backgroundColor: themeViewModel.isDarkMode ? Colors.black : Colors.white,
         appBar: AppBar(
