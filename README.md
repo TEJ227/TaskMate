@@ -55,11 +55,9 @@ This app uses Provider for state management, combined with MVVM architecture.
 
 # Screenshots
 
-![image](https://github.com/user-attachments/assets/febf0d2e-ff94-4db7-b1cb-ddaf2754c2ac)
-![4](https://github.com/user-attachments/assets/9f64d53f-22c0-46e5-87f4-51a18611d8bc)
-![3](https://github.com/user-attachments/assets/fef1d04c-60ac-4200-87b4-7378f4ce5e8a)
-![2](https://github.com/user-attachments/assets/571da18e-3259-4280-810a-aa8399604b8d)
-![Screenshot_20250607_030928](https://github.com/user-attachments/assets/d0b7a6cb-91e6-42ae-b83d-a524e9fcd857)![Screenshot_20250607_031006](https://github.com/user-attachments/assets/aa3c50f6-0586-4b9c-b299-66b733b5ca9e)
+![image](https://github.com/user-attachments/assets/febf0d2e-ff94-4db7-b1cb-ddaf2754c2ac) | ![4](https://github.com/user-attachments/assets/9f64d53f-22c0-46e5-87f4-51a18611d8bc)
+![3](https://github.com/user-attachments/assets/fef1d04c-60ac-4200-87b4-7378f4ce5e8a) | ![2](https://github.com/user-attachments/assets/571da18e-3259-4280-810a-aa8399604b8d)
+![Screenshot_20250607_030928](https://github.com/user-attachments/assets/d0b7a6cb-91e6-42ae-b83d-a524e9fcd857) | ![Screenshot_20250607_031006](https://github.com/user-attachments/assets/aa3c50f6-0586-4b9c-b299-66b733b5ca9e)
 
 # Bonus Features 
 
